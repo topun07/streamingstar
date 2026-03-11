@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Define a custom font family for a cleaner look */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Style for the main body */
+body {
+    /* Set your Canva-designed image here */
+    background-image: url('image\dallasSkyLine.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    /* Center the container and add padding */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h3, h4 {
+    color: #4EE44E; /* Neon Green Title Color */
+    text-shadow: 0 0 10px rgba(78, 228, 78, 0.8);
+}
+
+/* Style for the main form card container */
+.card {
+    /* Use the creamy background color */
+    background-color: #FCF8F5; 
+    /* Add a slight purple shadow for depth */
+    box-shadow: 0 8px 16px rgba(138, 43, 226, 0.2); 
+    border-radius: 15px; /* Softer, modern corners */
+    border: none;
+}
+
+/* Style inputs and selects for a dark theme */
+.form-control, .form-select {
+    background-color: #0A192F;
+    border: 1px solid #4EE44E;
+    color: #E0E0E0;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #0A192F;
+    border-color: #3B993B;
+    box-shadow: 0 0 5px #3B993B;
+    color: #E0E0E0;
+}
+
+/* Style for the submit button */
+.btn-primary {
+    background-color: #8A2BE2 !important; /* Primary Accent Purple */
+    border-color: #8A2BE2 !important;
+}
+
+.btn-primary:hover {
+    background-color: #3B993B;
+    border-color: #3B993B;
+    box-shadow: 0 0 15px #4EE44E;
+}
+
+/* Styling for the logo */
+.main-logo {
+    max-width: 250px; /* Adjust size as needed, but this is a good starting point */
+    height: auto;
+    margin-bottom: 20px; /* Space it out from the form card */
+}
